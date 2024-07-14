@@ -1,0 +1,96 @@
+* {
+    margin-top: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+  a {
+    color: #007bff; /* Color de enlaces */
+  }
+  
+  /* Tipografía */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold; /* Texto en negrita */
+    font-size: 36px;
+    text-align: center;
+  }
+  
+  p {
+    line-height: 1.6; /* Espacio entre líneas */
+  }
+  
+  .crud-container {
+    margin-top: 0;
+    display: block;
+    padding: auto;
+  }
+  
+  .formulario {
+    padding: auto;
+  }
+
+  .formulario label {
+    margin-block: 15px;
+  }
+
+  label, select {
+    font-size: 16px;
+    margin-block: 15px;
+  }
+
+  /* Botones */
+  .formulario .button1 {
+    margin: 15px;
+    width: 400Px;
+    background-color: #531253;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  
+  .button1:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Tablas */
+  table {
+    padding: 10px;
+    border-collapse: collapse; /* Borde que une las celdas */
+    width: 100%; /* Ancho completo */
+  }
+  
+  th, td {
+    border: 1px solid #ddd; /* Borde gris claro para las celdas */
+    padding: 8px; /* Espacio interno en las celdas */
+  }
+  
+    /* Formularios */
+    /*input, textarea {
+      align-items: center;
+      margin-block: 10px;
+      border-radius: 10px;
+      border: 1px solid #ddd; Borde gris claro para inputs y textareas 
+      }*/
+  
+  /* Código */
+  pre {
+    background-color: #f6f8fa; /* Color de fondo para código */
+    border: 1px solid #ddd; /* Borde gris claro para el código */
+    padding: 16px;
+  }
+  
+
+.edit, .edit2 {
+    border-radius: 10%;
+    margin: auto;
+}
+
+.icon1 {
+    font-size: 10px;
+    width: 30px;
+    height: 30px;
+    color: #531253;
+}
